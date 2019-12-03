@@ -1,0 +1,3 @@
+break 58
+alias qq commands 1;; print(time, in_progress, finished_steps);; end
+alias poop cont;;print(time, in_progress, finished_steps)
