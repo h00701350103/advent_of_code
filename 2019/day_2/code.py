@@ -3,7 +3,7 @@ import os
 
 def download_input(day):
     with open('../.cookie') as f:
-        AUTH = f.read()
+        AUTH = f.read().strip()
 
     url = f"https://adventofcode.com/2019/day/{day}/input"
     cookies = dict(session=AUTH)
